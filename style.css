@@ -1,28 +1,29 @@
 /* CSS files add styling rules to your content */
 
-.html, .h1, .body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-height: 100%;
-font-size: jumbo;
-    font-weight: bold;
-  text-align: center;
-    margin: 2em;
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; gotham bold
+  margin: 2em;
+  font-size: large;
+  font-weight: bold;
+  text-align: justify;
 }
 
-.h1 {
+html, body {
+  height: 100%;
+    font-size: large;
+    font-weight: bold;
+  text-align: center;
+
+}
+
+h1 {
   font-style: normal;
-  color: green;
+  color: #373fff;
     font-size: jumbo;
     font-weight: bold;
-  text-align: center;
+  text-align: justify;
 }
 
-
-.body {
-  font-size: jumbo;
-  font-weight: bold;
-  text-align: center;
-}
 
 .center {
   display: block;
@@ -47,7 +48,7 @@ font-size: jumbo;
       margin-left: auto;
       margin-right: auto;
 }
-
+    
 .responsive {
   display: block;
   max-width: 100%;
